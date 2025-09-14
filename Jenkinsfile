@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         registry = "jiyachordiya/myapp" // Jiya's Docker Hub
-        registryCredential = 'dockerhub-jiya' // Jenkins credentials ID for Jiya
+        registryCredential = 'dockerhub' // Jenkins credentials ID for Jiya
         dockerImage = ''
     }
 
